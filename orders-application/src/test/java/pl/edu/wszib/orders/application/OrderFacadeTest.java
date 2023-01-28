@@ -13,13 +13,28 @@ public class OrderFacadeTest {
     public void should_be_able_to_create_order() {
         // TODO: task1 impl
         // given:
-
         // when:
-
+        OrderResult result = orderFacade.create();
         // then:
+        assertTrue(result.isSuccess());
     }
 
     // TODO: task2 propose test methods to cover all use cases
+
+    @Test
+    public void should_be_able_to_increase_product_in_order() {
+
+    }
+
+    @Test
+    public void should_be_able_to_decrease_product_in_order() {
+
+    }
+
+    @Test
+    public void should_be_able_to_remove_product_from_order() {
+
+    }
     @Test
     public void should_be_able_to_add_product_to_order() {
 
